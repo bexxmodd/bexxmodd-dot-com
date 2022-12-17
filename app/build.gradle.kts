@@ -13,11 +13,13 @@ java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
+    google()
 }
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-mustache")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin") // Jackson extensions for Kotlin for working with JSON
     implementation("org.jetbrains.kotlin:kotlin-reflect") // Kotlin reflection library, required for working with Spring
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8") // Kotlin standard library

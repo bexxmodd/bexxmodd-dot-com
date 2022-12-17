@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- applause button -->
+    <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+    <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+    <!-- Font Selection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Inconsolata&family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet">
+
+
+    <!-- Preview Image -->
+    <meta property="og:image" content="/static/img/bexxmodd.png" />
+
+    <!-- tab icon -->
+    <link rel="icon" href="/static/img/icon5.png">
+
+    <style>
+        @import url("/static/blog/main.css");
+    </style>
+
+    <title>Beka Modebadze | {{#title}}title{{/title}}</title>
+</head>
+
+<body>
+<header class="site-header">
+    <div class="container">
+        <nav class="navbar">
+            <div>
+                <a class="name" href="{% url 'blog-about' %}">Beka Modebadze</a>
+            </div>
+            <hr>
+            <div class="dissolved">Dev's enchiridon</div>
+            <hr>
+            <div class="page-info">
+                <a class="logs" href="{% url 'blog-posts' %}">Logs</a>
+                <a class="logs" href="{% url 'blog-oss' %}">OSS</a>
+                <div class="icon-links">
+                    <a href='https://www.github.com/bexxmodd' target="_blank">
+                        <img src="/static/img/github.png" alt=""></a>
+
+                    <a href='https://www.linkedin.com/in/bmodebadze/' target="_blank">
+                        <img src="/static/img/linkedin-blue.png" alt=""></a>
+
+                    <a href='https://twitter.com/bexmod' target="_blank">
+                        <img src="/static/img/twitter-00ffdd.png" alt=""></a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-14">
+            {{{content}}}
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

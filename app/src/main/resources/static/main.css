@@ -1,0 +1,179 @@
+h1 {
+    text-align: center;
+    color: #DDDDDD;
+    display: inline-flex;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #00ffdd;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.navbar {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.navbar a {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+hr {
+    flex-basis: 100%;
+    height: 0;
+    margin: 0;
+    border: 0;
+}
+
+.name {
+    color: #00ffdd;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-left: 1rem;
+}
+
+.dissolved {
+    color: #30475E;
+    font-size: 1.3rem;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-left: 1rem;
+}
+
+.page-info {
+    width: 100%;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.logs {
+    color: #00ffdd;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-left: 1rem;
+}
+
+.logs:nth-child(2) {
+    margin-right: .5rem;
+}
+
+.icon-links img {
+    height: 1.1rem;
+    margin-top: 17%;
+    padding-left: .4rem;
+    float: left;
+}
+
+.icon-links img:hover {
+    opacity: .5;
+}
+
+.tabs {
+    float: left;
+}
+
+.name:hover {
+    text-decoration: underline;
+    opacity: .5;
+}
+
+.logs:hover {
+    text-decoration: underline;
+    opacity: .5;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background: #222831;
+    color: #DDDDDD;
+}
+
+code {
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    background-color: #30475E;
+    border-radius: .2rem;
+}
+
+.container {
+    max-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-section {
+    font-family: 'fira code', monospace;
+    font-size: 1rem;
+    background: #222831;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 0.25px solid #30475E;
+    border-width: 80%;
+}
+
+.link {
+    color: #FFD369;
+    text-decoration: underline;
+}
+
+.article-title {
+    color: #00ffdd;
+    text-decoration: none;
+}
+
+a.article-title:hover {
+    text-decoration: underline;
+    opacity: .5;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-metadata {
+    padding-bottom: 2rem;
+}
+
+.article-metadata a:hover {
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.page-title {
+    text-align: center;
+    padding-bottom: 3rem;
+}

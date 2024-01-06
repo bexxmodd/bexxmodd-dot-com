@@ -177,3 +177,18 @@ a.article-title:hover {
     text-align: center;
     padding-bottom: 3rem;
 }
+
+.subscribe {
+    color: #00ffdd;
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 4rem;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: .2rem;
+    line-height: normal;
+    display: flex;
+}

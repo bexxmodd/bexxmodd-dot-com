@@ -20,13 +20,10 @@
     <meta property="og:image" content="/static/img/bexxmodd.png" />
 
     <!-- tab icon -->
-    <link rel="icon" href="/static/img/icon5.png">
+    <link rel="icon" href="static/img/icon5.png">
+    <link rel="stylesheet" href="../main.css">
 
-    <style>
-        @import url("/static/blog/main.css");
-    </style>
-
-    <title>Beka Modebadze | {{#title}}title{{/title}}</title>
+    <title>Beka Modebadze | {{title}}</title>
 </head>
 
 <body>
@@ -34,23 +31,23 @@
     <div class="container">
         <nav class="navbar">
             <div>
-                <a class="name" href="{% url 'blog-about' %}">Beka Modebadze</a>
+                <a class="name" href="">Beka Modebadze</a>
             </div>
             <hr>
             <div class="dissolved">Dev's enchiridon</div>
             <hr>
             <div class="page-info">
-                <a class="logs" href="{% url 'blog-posts' %}">Logs</a>
-                <a class="logs" href="{% url 'blog-oss' %}">OSS</a>
+                <a class="logs" href="">Logs</a>
+                <a class="logs" href="">OSS</a>
                 <div class="icon-links">
                     <a href='https://www.github.com/bexxmodd' target="_blank">
-                        <img src="/static/img/github.png" alt=""></a>
+                        <img src="../img/github.png" alt=""></a>
 
                     <a href='https://www.linkedin.com/in/bmodebadze/' target="_blank">
-                        <img src="/static/img/linkedin-blue.png" alt=""></a>
+                        <img src="../img/linkedin-blue.png" alt=""></a>
 
                     <a href='https://twitter.com/bexmod' target="_blank">
-                        <img src="/static/img/twitter-00ffdd.png" alt=""></a>
+                        <img src="../img/twitter-00ffdd.png" alt=""></a>
 
                 </div>
             </div>
@@ -65,6 +62,12 @@
         </div>
     </div>
 </main>
+
+<footer>
+  <div>
+    <a class="subscribe" href="">Subscribe to the newsletter</a>
+  </div>
+</footer>
 
 </body>
 </html>
